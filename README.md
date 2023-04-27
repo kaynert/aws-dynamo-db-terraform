@@ -23,6 +23,7 @@ Terraform is an Infrastructure-As-Code platform used to provision resources on c
 2. Navigate to folder containing Terraform file using your terminal
 3. In your terminal, type **terraform init**
 4. In your terminal, type **terraform apply**
+5. You can destroy the provisioned resources with this command: **terraform destroy**
 
 # PHP Compose
 1. Download PHP Compose from this site: **https://getcomposer.org/download/**
