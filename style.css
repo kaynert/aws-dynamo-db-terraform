@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Press+Start+2P&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input {
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-box {
+    width: 100%;
+    background-color: #fff;
+    max-width: 1020px;
+    height: 640px;
+    border-radius: 3rem;
+    box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.5); 
+    position: relative;
+}
+
+.inner-box{
+    position: absolute;
+    width: calc(100% - 4rem);
+    height: calc(100% - 4rem);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.forms-container{
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    left: 0;
+}
+
+.carousel{
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    top: 0;
+    left: 45%;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    border-radius: 2rem;
+}
+
+form{
+    max-width: 260px;
+    width: 100%;
+    
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 27px;
+    margin-right: 0.3rem;
+}
+
+.logo h4{
+    font-size: 1.1rem;
+    margin-top: -9px;
+    letter-spacing: -0.5px;
+    color: #151111;
+}
+
+.title h2 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #151111;
+}
+
+.input-container{
+    position: relative;
+    height: 37px;
+    margin-bottom: 2rem;
+}
+
+.input-spaces{
+    position: absolute;
+    background: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-bottom: 1px solid #bbb;
+    padding: 0;
+    font-size: 0.96rem;
+    color: #151111;
+}
+
+label{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signin-btn{
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    background-color: #151111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: .86rem;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+.signin-btn:hover{
+    background-color: #e9c4c4;
+    color: #151111;
+}
+
+.image-wrapper{
+    bottom: 50%;
+}
+
+.main-image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* .grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+} */
+
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+    /* margin: auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column; */
+  /* } */ 
+
+  .card {
+    
+    background-color: #f9f9f9;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    overflow: hidden;  
+    min-width: 0; 
+}
+
+  
+  .titlename {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .teams-container{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    top: 0;
+    left: 0;
+  }
+
+  .teams{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 75%;
+    top: 0;
+    left: 25%;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    border-radius: 2rem;
+    min-height: 0; 
+    min-width: 0;
+}
+
+.outer-box-teams {
+    width: 100%;
+    background-color: #fff;
+    max-width: 10200px;
+    height: 640px;
+    border-radius: 3rem;
+    box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.5); 
+    position: relative;
+}
